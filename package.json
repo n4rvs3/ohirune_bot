@@ -1,0 +1,15 @@
+{
+  "description": "Discord.jsテンプレート",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "yarn biome check --write src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3"
+  }
+}
