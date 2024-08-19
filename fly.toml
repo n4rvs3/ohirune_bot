@@ -1,0 +1,17 @@
+# fly.toml app configuration file generated for hirune-bot on 2024-08-19T11:18:58+09:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'hirune-bot'
+primary_region = 'nrt'
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[env]
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
